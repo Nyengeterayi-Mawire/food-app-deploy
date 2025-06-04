@@ -1,0 +1,5 @@
+.ordersContent{
+    grid-area: ordersContent;     
+    overflow-y: scroll;  
+    scrollbar-width: none;
+}

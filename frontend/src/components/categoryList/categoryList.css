@@ -1,0 +1,34 @@
+.categoryList,.categoryFlexContainer{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+} 
+.categoryFlexContainer{
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.categoryScrollSection{
+    display: flex;   
+    width: fit-content;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+}
+.categoryCardOuterSection{
+    margin-right: 20px;
+    border: none;
+    background-color: transparent;
+}
+.categoryCardOuterSection:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+
+@media (min-width: 780px) {
+
+}
+
+@media (max-width: 780px) {
+
+}

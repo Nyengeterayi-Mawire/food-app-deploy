@@ -1,0 +1,25 @@
+.basketWidgetContainer{
+    position: fixed;
+    bottom: 20px; 
+    left: 0px;
+    width: 100%;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;   
+}
+.basketWidget{
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 42px; 
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;    
+    background-color: lightblue;    
+    display: flex;
+}
+.basketWidgetContainer.show{
+    visibility: visible;
+}
+.basketWidgetContainer.hide{
+    visibility: hidden;
+}

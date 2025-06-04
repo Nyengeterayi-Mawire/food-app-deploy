@@ -1,0 +1,21 @@
+{
+  "name": "hunger_solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://w67034-test@dev.azure.com/w67034-test/Foody_App/_git/Foody_App"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

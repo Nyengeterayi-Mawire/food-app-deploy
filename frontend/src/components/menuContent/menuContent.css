@@ -1,0 +1,85 @@
+.menuContent{ 
+    grid-area: menuContent;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 70px calc(100vh - 150px - 70px);
+    grid-template-areas: 
+        "categoryList"
+        "searchSection"
+        "menuList";
+    position: relative; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    
+}
+
+.categoryList{
+    /* border: 1px solid yellow; */
+    grid-area:"categoryList" ;
+}
+.categoryCard{    
+    display: flex;
+    flex-direction: column;
+    width:  fit-content;
+    height : fit-content; 
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.1);
+} 
+.categoryCardOuterSection{
+    padding: 10px;
+    width: fit-content;
+    position: relative;
+}
+.categoryCard img{
+    width: 70px;
+    height : 70px;
+    object-fit: contain;    
+    /* position:absolute;
+    top: 0;
+    right: 0; */
+    margin: auto;
+}
+.categoryCardOuterSection p{
+    align-items: end;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+} 
+.searchSection{ 
+    grid-area: "searchSection"; 
+    padding: 10px;  
+    display: flex;
+    justify-content: center;
+    
+}
+.searchInput{
+    width : 50%;
+    min-width: 350px;
+    height : 10px;
+    padding : 15px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    outline: none;
+}
+.searchInput:focus{
+    border: 2px solid lightblue;
+} 
+@media (max-width: 780px) {
+    .menuContent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 70px calc(100vh - 150px - 70px);
+        grid-template-areas: 
+            "categoryList"
+            "searchSection"
+            "menuList";
+        position: relative; 
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,25 @@
+.basketItem{
+    border-top:1px solid gray;
+    padding-bottom: 15px;
+    
+}
+.basketItemSection{
+    width: 90%;
+    margin-left: 5%;
+}
+.basketItemDescription{
+    display: flex;
+}
+.basketItemPrice,.basketItemName{
+    font-size: 18px; 
+    margin:0px;
+    padding: 10px 5px;
+}
+.basketItemName{
+    width: 180px; 
+    /* border: 1px solid red; */
+}
+.basketItemPrice{
+    display: flex;
+    justify-content: end;
+} 

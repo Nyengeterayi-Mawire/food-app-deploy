@@ -1,0 +1,9 @@
+.currentOrders{
+    width: 90%;
+    margin-left: 5%;
+}
+.ordersList{
+    display: flex;
+    flex-wrap: wrap; 
+    gap:14px
+}

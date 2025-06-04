@@ -1,0 +1,9 @@
+.favoritesContent{
+    grid-area: favoritesContent;  
+    position: relative; 
+    overflow: hidden; 
+}
+.favoritesContainer{
+    width: 90%;
+    margin-left: 5%;
+}

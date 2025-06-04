@@ -1,0 +1,49 @@
+.viewBasket{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top:50;
+    right: 0;
+    background-color: white; 
+    box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.1);  
+    visibility: hidden;  
+    transform: translateX(300px);
+    transition: 0.3s all ease-in ;
+} 
+.viewBasket.show{
+    visibility: visible;
+    transform: translateX(0);
+    transition: 0.3s all ease-in ;
+}
+.viewBasket.hide{
+    visibility: hidden;
+    transform: translateX(300px);
+    transition: 0.3s all ease-in ;
+}
+.viewBasket h1{
+    padding-left: 20px;
+}
+.totalSection{
+    display: flex; 
+    width: 90%;
+    margin-left: 5%; 
+    
+}
+.viewBasket footer{
+    border-top: 2px solid gray;
+} 
+.totalLabel,.totalPrice{
+    font-size: 20px;
+    font-weight: 700; 
+    width: 50%;
+}
+.totalPrice{
+    text-align: end;
+} 
+.submitSection{
+    display: flex;
+    justify-content: center;
+}
+footer .addToBasketButton{
+    padding: 14px 48px;
+}

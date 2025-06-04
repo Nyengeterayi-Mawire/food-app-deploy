@@ -1,0 +1,39 @@
+.orderNotification{
+    position: absolute;
+    top : 20px; 
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;    
+    transform: translateY(-100px);
+    transition: 0.3s all ease-in;
+    z-index: 1000;
+}
+.orderNotification.show{
+    visibility: visible;
+    transform: translateY(0);
+    transition: 0.3s all ease-in;
+}
+.orderNotification.hide{
+    visibility: hidden;
+    transform: translateY(-100px);
+    transition: 0.3s all ease-in;
+}
+.notification{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 28px;
+    background-color: lightblue;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.notificationIcon{
+   color: darkgreen;
+}
+.notificationText{
+    margin:0; 
+    padding-left: 10px;
+}

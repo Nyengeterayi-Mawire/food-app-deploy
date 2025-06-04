@@ -1,0 +1,16 @@
+.receiptOrder{
+    display: flex;
+    padding: 2px 10px;    
+} 
+.receiptOrder p,.receiptOrder h2{
+    margin: 0; 
+    padding: 2px 0px;
+}
+.receiptOrderName{
+    width: 70%;
+}
+.receiptOrderPrice{
+    width: 30%;
+    text-align: end;
+    padding-right: 10px;    
+}
